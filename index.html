@@ -20,7 +20,14 @@
         <img src="img/logo.svg" alt="logo: Abito" class="logo-image">
       </a>
       <!-- навигация -->
-      <nav class="navbar-menu">
+      <div class="navbar-panel">
+        <button class="close-menu">
+          <svg width="25" height="25" viewBox="0 0 80 76" fill="none" 
+          xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 1L79 75M1 75L79 1" stroke="black"/>
+        </svg>
+        </button>
+        <nav class="navbar-menu">
         <!-- меню -->
         <ul class="menu">
           <!-- пункты меню -->
@@ -41,6 +48,29 @@
       <div class="button-group">
         <a href="#" class="button button-link">Вход и регистрация</a>
         <a href="#" class="button button-primary">Подать объявление</a>
+      </div>
+      </div>
+      <div class="menu-button">
+        <svg width="38" height="31" viewBox="0 0 38 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g filter="url(#filter0_d)">
+          <path d="M4.93748 9.37501H33.0624C33.58 9.37501 33.9999 8.95498 33.9999 8.43754C33.9999 7.92002 33.5799 7.50006 33.0624 7.50006H4.93748C4.41995 7.50006 4 7.92009 4 8.43754C4 8.95498 4.42003 9.37501 4.93748 9.37501Z" fill="black"/>
+          <path d="M33.0624 14.0626H4.93748C4.41995 14.0626 4 14.4826 4 15C4 15.5175 4.42003 15.9375 4.93748 15.9375H33.0624C33.58 15.9375 33.9999 15.5175 33.9999 15C33.9999 14.4826 33.58 14.0626 33.0624 14.0626Z" fill="black"/>
+          <path d="M33.0625 20.625H14.3125C13.795 20.625 13.375 21.0451 13.375 21.5625C13.375 22.08 13.795 22.5 14.3125 22.5H33.0625C33.58 22.5 33.9999 22.0799 33.9999 21.5625C34 21.045 33.58 20.625 33.0625 20.625Z" fill="black"/>
+          </g>
+          <defs>
+          <filter id="filter0_d" x="0" y="0" width="38" height="38" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+          <feOffset dy="4"/>
+          <feGaussianBlur stdDeviation="2"/>
+          <feComposite in2="hardAlpha" operator="out"/>
+          <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+          </filter>
+          </defs>
+          </svg>
+
       </div>
     </div>
     <!-- /.button-group -->
@@ -237,6 +267,8 @@
       </footer>
     </aside>
   </div>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
